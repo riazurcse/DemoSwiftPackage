@@ -13,4 +13,8 @@ public class TestClass {
     public func sum(val1: Int, val2: Int) -> Int {
         return val1 + val2
     }
+    
+    public func doMultiply(val1: Int, val2: Int) -> Int {
+        return val1 * val2
+    }
 }

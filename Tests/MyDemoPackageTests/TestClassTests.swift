@@ -12,4 +12,8 @@ class TestClassTests: XCTestCase {
     func testSum() {
         XCTAssertEqual(TestClass.shared.sum(val1: 5, val2: 6), 11)
     }
+    
+    func testMultiply() {
+        XCTAssertEqual(TestClass.shared.doMultiply(val1: 5, val2: 5), 25)
+    }
 }
